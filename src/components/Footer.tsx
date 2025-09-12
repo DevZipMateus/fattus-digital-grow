@@ -30,7 +30,9 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <div className="mb-6">
-                <img src={fattusLogo} alt="Fattus Contabilidade Digital" className="h-16 w-auto mb-4" />
+                <div className="inline-block bg-white p-4 rounded-2xl mb-4 shadow-md">
+                  <img src={fattusLogo} alt="Fattus Contabilidade Digital" className="h-16 w-auto" />
+                </div>
                 <h3 className="font-playfair text-xl font-semibold mb-4">
                   Fattus Contabilidade Digital
                 </h3>
