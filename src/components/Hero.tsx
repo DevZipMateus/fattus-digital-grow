@@ -20,13 +20,18 @@ const Hero = () => {
             <span className="text-sm font-medium">Contabilidade Digital Confiável</span>
           </div>
 
-          {/* Main Heading */}
-          <h1 className="font-playfair text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          {/* Main Heading - Company Name */}
+          <h1 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
+            Fattus Contabilidade Digital
+          </h1>
+          
+          {/* Main Slogan */}
+          <h2 className="font-playfair text-2xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
             Da abertura ao crescimento:
             <span className="text-gradient-accent block">
               sua jornada, nossa prioridade
             </span>
-          </h1>
+          </h2>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed text-white/90">
