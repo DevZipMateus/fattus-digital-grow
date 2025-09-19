@@ -22,16 +22,14 @@ const Hero = () => {
           
           {/* Main Slogan */}
           <h2 className="font-playfair text-2xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-            Da abertura ao crescimento:
-            <span className="text-gradient-accent block">
-              sua jornada, nossa prioridade
+            <span className="text-gradient-accent">
+              Sua jornada, nossa prioridade
             </span>
           </h2>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed text-white/90">
-            Transformamos a contabilidade em um aliado estratégico para pequenos negócios, 
-            autônomos e microempreendedores com soluções digitalizadas e personalizadas.
+          <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed text-white/90">
+            Contabilidade digital para pequenos negócios e microempreendedores.
           </p>
 
           {/* CTA Buttons */}
