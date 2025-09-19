@@ -14,11 +14,6 @@ const Hero = () => {
       
       <div className="relative z-10 text-center section-padding">
         <div className="container-custom">
-          {/* Badge */}
-          <div className="inline-flex items-center bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-2 mb-8">
-            <Shield className="w-5 h-5 mr-2 text-accent" />
-            <span className="text-sm font-medium">Contabilidade Digital Confiável</span>
-          </div>
 
           {/* Main Heading - Company Name */}
           <h1 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
